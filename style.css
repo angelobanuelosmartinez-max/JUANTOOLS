@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f7;
+    color: #111;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px 20px;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #666;
+}
+
+main {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 16px;
+    background: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+#calculadora {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 22px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 7px 0;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.operaciones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.operaciones button {
+    background: #e5e5ea;
+}
+
+.oculto {
+    display: none;
+}
+textarea {
+    width: 100%;
+    min-height: 180px;
+    padding: 14px;
+    margin: 7px 0;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
+
+#notas {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 22px;
+}
+
+#estadoNotas {
+    color: #666;
+    font-size: 14px;
+}
+#cronometro {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 22px;
+}
+
+#tiempo {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0;
+    font-variant-numeric: tabular-nums;
+}

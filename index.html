@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUANTOOLS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>JUANTOOLS</h1>
+        <p>Herramientas simples para todos.</p>
+    </header>
+
+    <main>
+
+        <button onclick="mostrarCalculadora()">
+            🧮 Calculadora
+        </button>
+<button onclick="mostrarNotas()">
+    📝 Bloc de notas
+</button>
+<button onclick="mostrarCronometro()">
+    ⏱️ Cronómetro
+</button>
+
+<section id="cronometro" class="oculto">
+
+    <h2>Cronómetro</h2>
+
+    <div id="tiempo">00:00:00</div>
+
+    <button onclick="iniciarCronometro()">▶️ Iniciar</button>
+
+    <button onclick="pausarCronometro()">⏸️ Pausar</button>
+
+    <button onclick="reiniciarCronometro()">🔄 Reiniciar</button>
+
+</section>
+<section id="notas" class="oculto">
+
+    <h2>Bloc de notas</h2>
+
+    <textarea
+        id="textoNotas"
+        placeholder="Escribe aquí..."
+    ></textarea>
+
+    <button onclick="guardarNotas()">
+        💾 Guardar
+    </button>
+
+    <button onclick="borrarNotas()">
+        🗑️ Borrar
+    </button>
+
+    <p id="estadoNotas">Sin cambios</p>
+
+</section>
+        </button>
+
+        <section id="calculadora" class="oculto">
+
+            <h2>Calculadora</h2>
+
+            <input
+                type="number"
+                id="numero1"
+                placeholder="Primer número"
+            >
+
+            <input
+                type="number"
+                id="numero2"
+                placeholder="Segundo número"
+            >
+
+            <div class="operaciones">
+                <button onclick="calcular('+')">+</button>
+                <button onclick="calcular('-')">−</button>
+                <button onclick="calcular('*')">×</button>
+                <button onclick="calcular('/')">÷</button>
+            </div>
+
+            <h3 id="resultado">Resultado: --</h3>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
