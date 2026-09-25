@@ -1,0 +1,7 @@
+*-backup
+*.backup
+*.bak
+*.antes*
+script-2.1-ip-backup.js
+script-2.1-socket-backup.js
+script-antes-perfil-2.2.js

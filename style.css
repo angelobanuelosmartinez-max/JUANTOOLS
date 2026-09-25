@@ -241,3 +241,2276 @@ button:active {
     transform: scale(0.92);
     transition-duration: 0.08s;
 }
+
+/* JUANTOOLS 1.1.1 - DARK SILICONE GLASS */
+
+body {
+    background:
+        radial-gradient(circle at 15% 15%, rgba(255,255,255,0.08), transparent 30%),
+        radial-gradient(circle at 85% 10%, rgba(120,140,255,0.12), transparent 30%),
+        linear-gradient(135deg, #11131a, #1b1e29 50%, #0d0f14);
+    color: #f5f5f7;
+}
+
+header p {
+    color: rgba(255,255,255,0.55);
+}
+
+button,
+#calculadora,
+#notas,
+#cronometro {
+    background: rgba(255,255,255,0.10);
+
+    backdrop-filter: blur(32px) saturate(180%);
+    -webkit-backdrop-filter: blur(32px) saturate(180%);
+
+    border: 1px solid rgba(255,255,255,0.22);
+
+    box-shadow:
+        0 18px 50px rgba(0,0,0,0.28),
+        inset 0 1px 2px rgba(255,255,255,0.35),
+        inset 0 -2px 4px rgba(0,0,0,0.18);
+}
+
+button::before,
+#calculadora::before,
+#notas::before,
+#cronometro::before {
+    height: 50%;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0.22),
+        rgba(255,255,255,0)
+    );
+}
+
+input,
+textarea {
+    background: rgba(255,255,255,0.08);
+    color: #f5f5f7;
+
+    backdrop-filter: blur(24px) saturate(170%);
+    -webkit-backdrop-filter: blur(24px) saturate(170%);
+
+    border: 1px solid rgba(255,255,255,0.20);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(255,255,255,0.45);
+}
+
+#estadoNotas {
+    color: rgba(255,255,255,0.55);
+}
+
+.operaciones button {
+    background: rgba(255,255,255,0.14);
+}
+
+
+/* JUANTOOLS 1.1.1 - ULTRA TRANSLUCENT GLASS */
+
+body {
+    background:
+        radial-gradient(circle at 15% 20%, rgba(120,160,255,0.28), transparent 35%),
+        radial-gradient(circle at 85% 15%, rgba(255,180,220,0.22), transparent 35%),
+        linear-gradient(135deg, #eef2fa, #dce3f1);
+}
+
+button,
+#calculadora,
+#notas,
+#cronometro {
+    background: rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(35px) saturate(190%);
+    -webkit-backdrop-filter: blur(35px) saturate(190%);
+
+    border: 1px solid rgba(255, 255, 255, 0.38);
+
+    box-shadow:
+        0 20px 55px rgba(50,60,90,0.15),
+        inset 0 1px 2px rgba(255,255,255,0.65),
+        inset 0 -1px 3px rgba(255,255,255,0.12);
+}
+
+input,
+textarea {
+    background: rgba(255,255,255,0.06);
+
+    backdrop-filter: blur(28px) saturate(180%);
+    -webkit-backdrop-filter: blur(28px) saturate(180%);
+
+    border: 1px solid rgba(255,255,255,0.32);
+}
+
+/* MODO OSCURO */
+
+body.modo-oscuro {
+    background:
+        radial-gradient(circle at 15% 20%, rgba(80,120,255,0.18), transparent 35%),
+        radial-gradient(circle at 85% 15%, rgba(180,100,220,0.14), transparent 35%),
+        linear-gradient(135deg, #090b10, #151923, #080a0f);
+
+    color: #f5f5f7;
+}
+
+body.modo-oscuro button,
+body.modo-oscuro #calculadora,
+body.modo-oscuro #notas,
+body.modo-oscuro #cronometro {
+    background: rgba(255,255,255,0.045);
+
+    backdrop-filter: blur(38px) saturate(180%);
+    -webkit-backdrop-filter: blur(38px) saturate(180%);
+
+    border-color: rgba(255,255,255,0.16);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,0.38),
+        inset 0 1px 2px rgba(255,255,255,0.28),
+        inset 0 -2px 5px rgba(0,0,0,0.25);
+}
+
+body.modo-oscuro input,
+body.modo-oscuro textarea {
+    background: rgba(255,255,255,0.04);
+    color: #f5f5f7;
+    border-color: rgba(255,255,255,0.15);
+}
+
+body.modo-oscuro input::placeholder,
+body.modo-oscuro textarea::placeholder {
+    color: rgba(255,255,255,0.38);
+}
+
+body.modo-oscuro header p,
+body.modo-oscuro #estadoNotas {
+    color: rgba(255,255,255,0.55);
+}
+
+
+/* JUANTOOLS 1.1.1 - ESTILOS DE PANTALLA */
+
+body.estilo-oscuro {
+    background: linear-gradient(135deg, #090b10, #151923, #080a0f);
+    color: #f5f5f7;
+}
+
+body.estilo-oscuro header p {
+    color: rgba(255,255,255,0.55);
+}
+
+body.estilo-glass {
+    background: linear-gradient(135deg, #eef2fa, #dce3f1);
+    color: #111;
+}
+
+body.estilo-glass button,
+body.estilo-glass #calculadora,
+body.estilo-glass #notas,
+body.estilo-glass #cronometro {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(35px) saturate(190%);
+    -webkit-backdrop-filter: blur(35px) saturate(190%);
+    border: 1px solid rgba(255,255,255,0.45);
+}
+
+body.estilo-nocturno {
+    background: linear-gradient(180deg, #101528, #05060a);
+    color: #f5f5f7;
+}
+
+body.estilo-nocturno header p {
+    color: rgba(255,255,255,0.55);
+}
+
+
+/* JUANTOOLS 1.1.2 - ANIMACIONES */
+
+#calculadora:not(.oculto),
+#notas:not(.oculto),
+#cronometro:not(.oculto) {
+    animation: aparecerFuncion 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes aparecerFuncion {
+    from {
+        opacity: 0;
+        transform: translateY(18px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+#calculadora.cerrando,
+#notas.cerrando,
+#cronometro.cerrando {
+    animation: desaparecerFuncion 0.25s ease forwards;
+}
+
+@keyframes desaparecerFuncion {
+    from {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(12px) scale(0.97);
+    }
+}
+
+
+/* JUANTOOLS 1.2.0 - ANIMACION DE CUENTA */
+
+#cuentas:not(.oculto) {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 22px;
+    animation: aparecerFuncion 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+#cuentas.cerrando {
+    animation: desaparecerFuncion 0.25s ease forwards;
+}
+
+/* JUANTOOLS 1.2.0 - PERFIL */
+
+#fotoPerfil {
+    display: block !important;
+    width: 110px !important;
+    height: 110px !important;
+    margin: 10px auto 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+#etiquetaUsuario {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 18px;
+}
+
+#estadoCuenta {
+    font-weight: bold;
+}
+/* JUANTSSAPP 0.2 - INTERFAZ */
+
+#juantssapp {
+    min-height: 80vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.juantssapp-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.juantssapp-header h2 {
+    margin-bottom: 18px;
+}
+
+#buscarAmigos {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    font-size: 16px;
+    outline: none;
+}
+
+#listaAmigos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.amigo {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    border-radius: 16px;
+    background: #f2f2f2;
+    text-align: left;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.amigo:active {
+    transform: scale(0.98);
+}
+
+#pantallaChat {
+    margin-top: 20px;
+}
+
+#mensajes {
+    min-height: 45vh;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 18px;
+    background: #f5f5f5;
+}
+
+.entradaMensaje {
+    display: flex;
+    gap: 8px;
+}
+
+.entradaMensaje input {
+    flex: 1;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.entradaMensaje button {
+    border: none;
+    border-radius: 15px;
+    padding: 0 18px;
+}
+
+.volverInicio {
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 16px;
+    background: #111;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* JUANTSSAPP 0.3 - PANTALLA COMPLETA */
+
+#juantssapp:not(.oculto) {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background: white;
+}
+
+#juantssapp .juantssapp-header {
+    padding-top: 10px;
+}
+
+#juantssapp .volverInicio {
+    margin-bottom: 20px;
+}
+
+
+/* JUANTSSAPP 0.4 - SOCIAL / iOS STYLE */
+
+#juantssapp:not(.oculto) {
+    background: linear-gradient(
+        180deg,
+        #f4faff 0%,
+        #ffffff 45%,
+        #f7fbff 100%
+    );
+    color: #111827;
+    padding: 0;
+}
+
+/* ENCABEZADO */
+
+#juantssapp .juantssapp-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 22px 18px 16px;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(180, 210, 235, 0.35);
+}
+
+#juantssapp .juantssapp-header h2 {
+    margin: 0 0 16px;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+}
+
+/* BUSCADOR */
+
+#juantssapp #buscarAmigos {
+    width: 100%;
+    height: 48px;
+    padding: 0 17px;
+    box-sizing: border-box;
+    border: 1px solid rgba(150, 200, 235, 0.35);
+    border-radius: 16px;
+    background: rgba(235, 247, 255, 0.9);
+    color: #172033;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+#juantssapp #buscarAmigos:focus {
+    border-color: rgba(80, 170, 235, 0.6);
+    background: white;
+    box-shadow: 0 0 0 4px rgba(100, 190, 245, 0.12);
+}
+
+/* LISTA DE AMIGOS */
+
+#juantssapp #listaAmigos {
+    padding: 10px 14px;
+    gap: 4px;
+}
+
+#juantssapp .amigo {
+    position: relative;
+    width: 100%;
+    min-height: 70px;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border: none;
+    border-radius: 18px;
+    background: transparent;
+    color: #182333;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.18s ease, transform 0.12s ease;
+}
+
+#juantssapp .amigo::first-letter {
+    font-size: 25px;
+}
+
+#juantssapp .amigo:hover {
+    background: rgba(220, 242, 255, 0.7);
+}
+
+#juantssapp .amigo:active {
+    transform: scale(0.98);
+    background: rgba(205, 236, 255, 0.9);
+}
+
+/* CHAT */
+
+#juantssapp #pantallaChat {
+    margin: 0;
+    min-height: 100%;
+}
+
+#juantssapp #pantallaChat > button:first-child {
+    width: auto;
+    margin: 18px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 14px;
+    background: rgba(220, 242, 255, 0.9);
+    color: #1686d9;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#juantssapp #nombreChat {
+    margin: 5px 18px 18px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* ÁREA DE MENSAJES */
+
+#juantssapp #mensajes {
+    min-height: 55vh;
+    margin: 0;
+    padding: 18px;
+    box-sizing: border-box;
+    border-radius: 0;
+    background: transparent;
+}
+
+/* ENTRADA */
+
+#juantssapp .entradaMensaje {
+    position: sticky;
+    bottom: 0;
+    padding: 12px 14px 16px;
+    background: rgba(255, 255, 255, 0.84);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(180, 210, 235, 0.3);
+}
+
+#juantssapp .entradaMensaje input {
+    height: 48px;
+    box-sizing: border-box;
+    padding: 0 17px;
+    border: 1px solid rgba(160, 205, 235, 0.45);
+    border-radius: 18px;
+    background: #eef9ff;
+    color: #172033;
+    font-size: 16px;
+    outline: none;
+}
+
+#juantssapp .entradaMensaje button {
+    min-width: 50px;
+    height: 48px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 17px;
+    background: #8fd8ff;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+#juantssapp .entradaMensaje button:active {
+    transform: scale(0.94);
+    background: #69c8fa;
+}
+
+/* BOTÓN VOLVER */
+
+#juantssapp .volverInicio {
+    margin: 24px 14px;
+    width: calc(100% - 28px);
+    padding: 15px;
+    border: none;
+    border-radius: 17px;
+    background: rgba(220, 242, 255, 0.9);
+    color: #1686d9;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* JUANTSSAPP 0.5 - LISTA DE CHATS */
+
+#juantssapp #listaAmigos {
+    padding: 4px 0 20px;
+    gap: 0;
+}
+
+#juantssapp .amigo {
+    width: 100%;
+    min-height: 76px;
+    padding: 10px 18px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 0;
+    border-bottom: 1px solid rgba(150, 190, 215, 0.25);
+
+    background: transparent;
+    color: #172033;
+
+    font-size: 17px;
+    font-weight: 650;
+
+    text-align: left;
+    transition: background 0.15s ease;
+}
+
+/* Avatar */
+
+#juantssapp .amigo::before {
+    content: "👤";
+
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 13px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        145deg,
+        #dff4ff,
+        #bde8ff
+    );
+
+    font-size: 24px;
+}
+
+/* Nombre */
+
+#juantssapp .amigo {
+    line-height: 1.25;
+}
+
+/* Toque estilo app */
+
+#juantssapp .amigo:active {
+    transform: none;
+    background: rgba(205, 236, 255, 0.65);
+}
+
+/* Primer contacto ligeramente separado del buscador */
+
+#juantssapp #listaAmigos .amigo:first-child {
+    border-top: 1px solid rgba(150, 190, 215, 0.18);
+}
+
+/* En pantallas grandes, mantener apariencia de app */
+
+@media (min-width: 700px) {
+    #juantssapp .amigo {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+
+/* JUANTSSAPP 0.6 - LISTA COMPACTA */
+
+#juantssapp #listaAmigos {
+    padding: 0;
+    gap: 0;
+}
+
+#juantssapp .amigo {
+    width: 100%;
+    min-height: 64px;
+    height: 64px;
+    padding: 8px 12px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 0;
+    border-bottom: 1px solid rgba(150, 190, 215, 0.20);
+
+    background: transparent;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: background 0.12s ease;
+}
+
+/* FOTO DE PERFIL PEQUEÑA */
+
+#juantssapp .amigo::before {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+
+    margin-right: 11px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        145deg,
+        #e5f6ff,
+        #c9edff
+    );
+
+    font-size: 20px;
+}
+
+/* CONTACTOS MÁS JUNTOS */
+
+#juantssapp .amigo + .amigo {
+    margin-top: 0;
+}
+
+/* TOQUE LIGERO */
+
+#juantssapp .amigo:active {
+    transform: none;
+    background: rgba(205, 236, 255, 0.55);
+}
+
+/* BÚSQUEDA MÁS COMPACTA */
+
+#juantssapp .juantssapp-header {
+    padding: 16px 12px 12px;
+}
+
+#juantssapp .juantssapp-header h2 {
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+
+#juantssapp #buscarAmigos {
+    height: 42px;
+    padding: 0 14px;
+    border-radius: 14px;
+    font-size: 15px;
+}
+
+
+/* JUANTSSAPP 0.6.1 - SEPARACIÓN AVATAR / NOMBRE */
+
+#juantssapp .amigo {
+    padding-left: 10px;
+    gap: 14px;
+}
+
+#juantssapp .amigo::before {
+    flex: 0 0 42px;
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    margin-right: 0;
+}
+
+
+/* JUANTSSAPP 0.6.2 - AVATAR REAL */
+
+#juantssapp .amigo {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Eliminamos el avatar falso */
+
+#juantssapp .amigo::before {
+    display: none;
+}
+
+/* Avatar + nombre */
+
+#juantssapp .amigo {
+    font-size: 0;
+}
+
+#juantssapp .amigo::first-letter {
+    font-size: 22px;
+}
+
+
+/* JUANTSSAPP 0.7.1 - CONTACTOS VISIBLES */
+
+#juantssapp #listaAmigos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    gap: 0;
+}
+
+#juantssapp .amigo {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    width: 100%;
+    height: 64px;
+    min-height: 64px;
+
+    padding: 8px 12px;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    align-items: center;
+    gap: 12px;
+
+    border: 0;
+    border-bottom: 1px solid rgba(150, 190, 215, 0.20);
+    border-radius: 0;
+
+    background: transparent;
+
+    color: #172033;
+    font-size: 16px;
+    font-weight: 600;
+
+    text-align: left;
+}
+
+#juantssapp .amigo::before {
+    display: none !important;
+}
+
+#juantssapp .avatarAmigo {
+    display: flex !important;
+
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        145deg,
+        #e5f6ff,
+        #c9edff
+    );
+
+    font-size: 20px;
+}
+
+#juantssapp .nombreAmigo {
+    display: block !important;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* JUANTSSAPP 0.8 - PANTALLA DE CHAT */
+
+#juantssapp #pantallaChat:not(.oculto) {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(
+        180deg,
+        #f4faff 0%,
+        #ffffff 45%,
+        #f7fbff 100%
+    );
+
+    direction: ltr;
+}
+
+/* ENCABEZADO DEL CHAT */
+
+#juantssapp #pantallaChat > button:first-child {
+    margin: 0;
+    width: 100%;
+    min-height: 58px;
+
+    padding: 0 16px;
+
+    border: none;
+    border-bottom: 1px solid rgba(150, 190, 215, 0.25);
+    border-radius: 0;
+
+    background: rgba(255, 255, 255, 0.88);
+
+    color: #1686d9;
+
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* NOMBRE DEL CONTACTO */
+
+#juantssapp #nombreChat {
+    margin: 0;
+    padding: 13px 18px;
+
+    border-bottom: 1px solid rgba(150, 190, 215, 0.18);
+
+    background: rgba(255, 255, 255, 0.82);
+
+    color: #172033;
+
+    font-size: 19px;
+    font-weight: 700;
+
+    direction: ltr;
+    text-align: left;
+}
+
+/* ZONA DE MENSAJES */
+
+#juantssapp #mensajes {
+    flex: 1;
+
+    min-height: 0;
+
+    margin: 0;
+    padding: 18px;
+
+    overflow-y: auto;
+
+    box-sizing: border-box;
+
+    background: transparent;
+
+    direction: ltr;
+    text-align: left;
+}
+
+/* BURBUJAS */
+
+#juantssapp .burbujaMensaje {
+    width: fit-content;
+    max-width: 78%;
+
+    margin: 6px 0 6px auto;
+    padding: 10px 14px;
+
+    border-radius: 18px 18px 5px 18px;
+
+    background: #b9e7ff;
+    color: #102235;
+
+    font-size: 15px;
+    line-height: 1.35;
+
+    direction: ltr;
+    text-align: left;
+
+    overflow-wrap: anywhere;
+}
+
+/* BARRA INFERIOR */
+
+#juantssapp #pantallaChat .entradaMensaje {
+    flex-shrink: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 10px 12px 14px;
+
+    background: rgba(255, 255, 255, 0.90);
+
+    border-top: 1px solid rgba(150, 190, 215, 0.25);
+
+    direction: ltr;
+}
+
+#juantssapp #pantallaChat .entradaMensaje input {
+    min-width: 0;
+}
+
+
+/* JUANTSSAPP 0.8.1 - CORRECCIÓN UNIVERSO ESPEJO */
+
+#juantssapp #mensajes {
+    display: flex !important;
+    flex-direction: column !important;
+
+    direction: ltr !important;
+    unicode-bidi: normal !important;
+
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+
+    text-align: left !important;
+}
+
+/* Cada mensaje empieza desde la izquierda */
+
+#juantssapp .burbujaMensaje {
+    direction: ltr !important;
+    unicode-bidi: normal !important;
+
+    align-self: flex-end !important;
+
+    margin-left: auto !important;
+    margin-right: 0 !important;
+
+    text-align: left !important;
+}
+
+/* El texto dentro de la burbuja también */
+
+#juantssapp .burbujaMensaje::first-line {
+    direction: ltr !important;
+}
+
+
+/* JUANTSSAPP 0.9 - CHAT REAL */
+
+#juantssapp #pantallaChat:not(.oculto) {
+    position: fixed !important;
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    overflow: hidden !important;
+
+    background: #f5fbff !important;
+
+    transform: none !important;
+}
+
+/* CABECERA */
+
+#juantssapp #pantallaChat > button:first-child {
+    flex-shrink: 0 !important;
+
+    width: 100% !important;
+    height: 52px !important;
+    min-height: 52px !important;
+
+    margin: 0 !important;
+    padding: 0 16px !important;
+
+    box-sizing: border-box !important;
+
+    text-align: left !important;
+
+    background: rgba(255,255,255,.92) !important;
+}
+
+/* NOMBRE */
+
+#juantssapp #nombreChat {
+    flex-shrink: 0 !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 10px 16px !important;
+
+    box-sizing: border-box !important;
+
+    font-size: 18px !important;
+    text-align: left !important;
+
+    background: rgba(255,255,255,.92) !important;
+
+    transform: none !important;
+}
+
+/* MENSAJES */
+
+#juantssapp #mensajes {
+    flex: 1 1 auto !important;
+
+    width: 100% !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 14px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-y: auto !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    align-items: flex-end !important;
+
+    justify-content: flex-start !important;
+
+    direction: ltr !important;
+    unicode-bidi: normal !important;
+
+    transform: none !important;
+}
+
+/* BURBUJA */
+
+#juantssapp .burbujaMensaje {
+    flex-shrink: 0 !important;
+
+    width: auto !important;
+    max-width: 78% !important;
+
+    margin: 4px 0 !important;
+
+    padding: 9px 13px !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 17px 17px 4px 17px !important;
+
+    background: #b9e7ff !important;
+    color: #102235 !important;
+
+    font-size: 15px !important;
+    line-height: 1.35 !important;
+
+    text-align: left !important;
+
+    direction: ltr !important;
+    unicode-bidi: normal !important;
+
+    transform: none !important;
+}
+
+/* BARRA DE ESCRITURA */
+
+#juantssapp #pantallaChat .entradaMensaje {
+    flex-shrink: 0 !important;
+
+    display: flex !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 9px 10px 12px !important;
+
+    box-sizing: border-box !important;
+
+    gap: 8px !important;
+
+    background: rgba(255,255,255,.94) !important;
+
+    border-top: 1px solid rgba(150,190,215,.25) !important;
+}
+
+#juantssapp #pantallaChat .entradaMensaje input {
+    flex: 1 1 auto !important;
+
+    min-width: 0 !important;
+    height: 44px !important;
+
+    box-sizing: border-box !important;
+
+    margin: 0 !important;
+
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+#juantssapp #pantallaChat .entradaMensaje button {
+    flex: 0 0 46px !important;
+
+    width: 46px !important;
+    height: 44px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    box-sizing: border-box !important;
+}
+
+/* QUITAR CUALQUIER TRANSFORMACIÓN HEREDADA */
+
+#juantssapp #pantallaChat,
+#juantssapp #pantallaChat *,
+#juantssapp #mensajes,
+#juantssapp #mensajes * {
+    transform: none !important;
+}
+
+
+/* JUANTSSAPP 1.0 - PREVIEW DE MENSAJES */
+
+#juantssapp .amigo {
+    position: relative;
+}
+
+#juantssapp .infoAmigo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 0;
+    flex: 1;
+    gap: 2px;
+}
+
+#juantssapp .infoAmigo .nombreAmigo {
+    display: block !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#juantssapp .ultimoMensaje {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7a8b99;
+}
+
+#juantssapp .horaAmigo {
+    flex-shrink: 0;
+    margin-left: auto;
+    font-size: 11px;
+    color: #8a9aa8;
+    align-self: flex-start;
+    margin-top: 7px;
+}
+
+
+/* JUANTSSAPP 1.1 - ESTADO DEL MENSAJE */
+
+#juantssapp .burbujaMensaje {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    gap: 3px !important;
+}
+
+#juantssapp .textoMensaje {
+    display: block;
+}
+
+#juantssapp .infoMensaje {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    opacity: 0.65;
+    white-space: nowrap;
+}
+
+
+/* JUANTSSAPP 1.3 - DOS LADOS */
+
+#juantssapp .burbujaMensaje.mensajePropio {
+    align-self: flex-end !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+#juantssapp .burbujaMensaje.mensajeOtro {
+    align-self: flex-start !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    border-radius: 17px 17px 17px 4px !important;
+    background: #ffffff !important;
+}
+
+#juantssapp .mensajeOtro .infoMensaje {
+    align-self: flex-start !important;
+}
+
+
+/* JUANTSSAPP 1.4B - ESTADO VISUAL */
+
+#juantssapp .estadoAmigo {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7a8b99;
+}
+
+
+/* JUANTSSAPP 1.4C - INDICADOR */
+
+#juantssapp #indicadorEscribiendo {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 16px 8px;
+    background: rgba(255,255,255,.92);
+    color: #7a8b99;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* JUANTSSAPP 1.4 FINAL - LIQUID GLASS SEND */
+
+#juantssapp .burbujaMensaje.mensajePropio {
+    animation: juantssappMensajeEnviado 650ms cubic-bezier(.22, 1.35, .36, 1) both;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(18px) saturate(150%);
+    -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+
+#juantssapp .burbujaMensaje.mensajePropio::before {
+    content: "";
+    position: absolute;
+    inset: -80%;
+    background: linear-gradient(
+        120deg,
+        transparent 40%,
+        rgba(255,255,255,.55) 50%,
+        transparent 60%
+    );
+    transform: translateX(-70%) rotate(8deg);
+    animation: juantssappBrilloGlass 650ms ease-out both;
+    pointer-events: none;
+}
+
+@keyframes juantssappMensajeEnviado {
+
+    0% {
+        opacity: 0;
+        transform: translateY(18px) scale(.72);
+        filter: blur(5px);
+    }
+
+    45% {
+        opacity: 1;
+        transform: translateY(-5px) scale(1.06);
+        filter: blur(0);
+    }
+
+    70% {
+        transform: translateY(2px) scale(.97);
+    }
+
+    88% {
+        transform: translateY(-1px) scale(1.015);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+}
+
+@keyframes juantssappBrilloGlass {
+
+    0% {
+        transform: translateX(-70%) rotate(8deg);
+    }
+
+    100% {
+        transform: translateX(70%) rotate(8deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    #juantssapp .burbujaMensaje.mensajePropio,
+    #juantssapp .burbujaMensaje.mensajePropio::before {
+        animation: none;
+    }
+}
+
+
+/* JUANTSSAPP 1.4 FINAL ULTRA - SEND GLASS FIX */
+
+#juantssapp .burbujaMensaje.mensajePropio {
+    position: relative;
+    overflow: hidden;
+    background: rgba(185, 231, 255, 0.58) !important;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    box-shadow:
+        inset 0 1px 1px rgba(255,255,255,.65),
+        0 4px 14px rgba(70,150,190,.12);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+}
+
+/* SOLO EL MENSAJE NUEVO */
+#juantssapp .burbujaMensaje.mensajeNuevo {
+    animation: juantssappReboteGlass 720ms cubic-bezier(.18, 1.45, .32, 1) both;
+}
+
+#juantssapp .burbujaMensaje.mensajeNuevo::before {
+    content: "";
+    position: absolute;
+    top: -60%;
+    left: -80%;
+    width: 45%;
+    height: 220%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.72),
+        transparent
+    );
+    transform: rotate(18deg);
+    animation: juantssappReflejoGlass 720ms ease-out both;
+    pointer-events: none;
+}
+
+@keyframes juantssappReboteGlass {
+
+    0% {
+        opacity: 0;
+        transform: translateY(22px) scale(.78);
+        filter: blur(4px);
+    }
+
+    32% {
+        opacity: 1;
+        transform: translateY(-7px) scale(1.08);
+        filter: blur(0);
+    }
+
+    52% {
+        transform: translateY(3px) scale(.96);
+    }
+
+    70% {
+        transform: translateY(-2px) scale(1.025);
+    }
+
+    86% {
+        transform: translateY(1px) scale(.992);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+}
+
+@keyframes juantssappReflejoGlass {
+
+    0% {
+        left: -80%;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 150%;
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    #juantssapp .burbujaMensaje.mensajeNuevo,
+    #juantssapp .burbujaMensaje.mensajeNuevo::before {
+        animation: none;
+    }
+}
+
+#juantssapp .burbujaMensaje.mensajeNuevo {
+    animation: juantssappReboteGlass 720ms cubic-bezier(.18, 1.45, .32, 1) both;
+}
+
+/* JUANTSSAPP - FIX BRILLO SOLO MENSAJE NUEVO */
+
+#juantssapp .burbujaMensaje.mensajePropio::before {
+    content: none !important;
+    animation: none !important;
+}
+
+#juantssapp .burbujaMensaje.mensajePropio {
+    animation: none !important;
+}
+
+/* El nuevo sí puede brillar */
+#juantssapp .burbujaMensaje.mensajeNuevo {
+    animation: juantssappReboteGlass 720ms cubic-bezier(.18, 1.45, .32, 1) both !important;
+}
+
+#juantssapp .burbujaMensaje.mensajeNuevo::before {
+    content: "" !important;
+    position: absolute;
+    inset: -60% !important;
+    background: linear-gradient(
+        110deg,
+        transparent 40%,
+        rgba(255,255,255,.65) 50%,
+        transparent 60%
+    );
+    transform: translateX(-70%);
+    animation: juantssappReflejoGlass 720ms ease-out both !important;
+    pointer-events: none;
+}
+/* JUANTSSAPP - ANIMACION NUEVO MENSAJE */
+
+#juantssapp .burbujaMensaje.mensajePropio {
+    animation: none !important;
+}
+
+#juantssapp .burbujaMensaje.mensajePropio::before {
+    content: none !important;
+    animation: none !important;
+}
+
+#juantssapp .burbujaMensaje.mensajePropio.mensajeNuevo {
+    animation: juantssappReboteGlass 720ms cubic-bezier(.18, 1.45, .32, 1) both !important;
+}
+
+#juantssapp .burbujaMensaje.mensajePropio.mensajeNuevo::before {
+    content: "" !important;
+    position: absolute !important;
+    inset: -60% !important;
+    background: linear-gradient(
+        110deg,
+        transparent 40%,
+        rgba(255,255,255,.65) 50%,
+        transparent 60%
+    ) !important;
+    animation: juantssappReflejoGlass 720ms ease-out both !important;
+    pointer-events: none !important;
+}
+
+/* JUANTSSAPP - NUEVA ANIMACION LIQUID GLASS */
+
+@keyframes juantssappReboteGlass {
+
+    0% {
+        opacity: 0;
+        translate: 0 10px;
+        scale: .94;
+        filter: blur(2px);
+    }
+
+    45% {
+        opacity: 1;
+        translate: 0 -2px;
+        scale: 1.015;
+        filter: blur(0);
+    }
+
+    70% {
+        translate: 0 1px;
+        scale: .995;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+        filter: blur(0);
+    }
+}
+/* JUANTSSAPP 1.4 FINAL ULTRA - NOTIFICACION LIQUID GLASS */
+
+.juantssappNotificacion {
+    position: fixed;
+    top: 18px;
+    left: 50%;
+    z-index: 100000;
+    width: min(360px, calc(100% - 28px));
+    padding: 12px 16px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+    border: 1px solid rgba(255,255,255,.65);
+    border-radius: 22px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.72),
+            rgba(220,242,255,.48)
+        );
+
+    box-shadow:
+        inset 0 1px 2px rgba(255,255,255,.85),
+        inset 0 -1px 2px rgba(120,170,200,.12),
+        0 12px 35px rgba(50,100,130,.18);
+
+    backdrop-filter: blur(28px) saturate(180%);
+    -webkit-backdrop-filter: blur(28px) saturate(180%);
+
+    opacity: 0;
+
+    translate: -50% -24px;
+    scale: .88;
+
+    animation:
+        juantssappNotificacionEntrada 650ms cubic-bezier(.18,1.35,.32,1) forwards,
+        juantssappNotificacionSalida 500ms ease-in 3200ms forwards;
+
+    overflow: hidden;
+}
+
+.juantssappNotificacion::before {
+    content: "";
+    position: absolute;
+    top: -80%;
+    left: -70%;
+    width: 45%;
+    height: 260%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.78),
+        transparent
+    );
+
+    transform: rotate(18deg);
+
+    animation:
+        juantssappNotificacionBrillo 1000ms ease-out 150ms forwards;
+
+    pointer-events: none;
+}
+
+.juantssappNotificacionIcono {
+    position: relative;
+    z-index: 1;
+
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.48);
+
+    box-shadow:
+        inset 0 1px 2px rgba(255,255,255,.8);
+
+    font-size: 19px;
+}
+
+.juantssappNotificacionTexto {
+    position: relative;
+    z-index: 1;
+
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.juantssappNotificacionNombre {
+    font-size: 13px;
+    font-weight: 700;
+    color: #172533;
+}
+
+.juantssappNotificacionMensaje {
+    margin-top: 2px;
+
+    font-size: 13px;
+    color: #526575;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@keyframes juantssappNotificacionEntrada {
+
+    0% {
+        opacity: 0;
+        translate: -50% -28px;
+        scale: .82;
+        filter: blur(5px);
+    }
+
+    45% {
+        opacity: 1;
+        translate: -50% 3px;
+        scale: 1.035;
+        filter: blur(0);
+    }
+
+    70% {
+        translate: -50% -1px;
+        scale: .992;
+    }
+
+    100% {
+        opacity: 1;
+        translate: -50% 0;
+        scale: 1;
+        filter: blur(0);
+    }
+}
+
+@keyframes juantssappNotificacionBrillo {
+
+    0% {
+        left: -70%;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 150%;
+        opacity: 0;
+    }
+}
+
+@keyframes juantssappNotificacionSalida {
+
+    0% {
+        opacity: 1;
+        translate: -50% 0;
+        scale: 1;
+    }
+
+    100% {
+        opacity: 0;
+        translate: -50% -12px;
+        scale: .96;
+        filter: blur(3px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .juantssappNotificacion {
+        animation: none;
+        opacity: 1;
+        translate: -50% 0;
+        scale: 1;
+    }
+
+    .juantssappNotificacion::before {
+        animation: none;
+    }
+}
+/* JUANTSSAPP - PERFIL LIQUID GLASS */
+
+#juantssapp #perfilContacto {
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: 100001 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 24px !important;
+    box-sizing: border-box !important;
+
+    background: rgba(220, 242, 255, .42) !important;
+    backdrop-filter: blur(24px) saturate(150%) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(150%) !important;
+
+    animation: perfilContactoEntrada 420ms cubic-bezier(.18,1.25,.32,1) both;
+}
+
+#juantssapp #perfilContacto.oculto {
+    display: none !important;
+}
+
+#juantssapp #avatarPerfilContacto {
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.55);
+    border: 1px solid rgba(255,255,255,.72);
+
+    box-shadow:
+        inset 0 1px 3px rgba(255,255,255,.9),
+        0 12px 30px rgba(60,110,140,.16);
+
+    font-size: 46px;
+
+    animation: perfilAvatarEntrada 520ms cubic-bezier(.18,1.35,.32,1) both;
+}
+
+#juantssapp #nombrePerfilContacto {
+    margin: 18px 0 4px !important;
+    padding: 0 !important;
+
+    color: #172533 !important;
+    font-size: 25px !important;
+    text-align: center !important;
+}
+
+#juantssapp #estadoPerfilContacto {
+    margin: 0 0 24px !important;
+    color: #647786 !important;
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+#juantssapp #perfilContacto button {
+    width: min(300px, 100%) !important;
+    min-height: 46px !important;
+    padding: 10px 18px !important;
+
+    border: 1px solid rgba(255,255,255,.7) !important;
+    border-radius: 18px !important;
+
+    background: rgba(255,255,255,.58) !important;
+    color: #172533 !important;
+
+    box-shadow:
+        inset 0 1px 2px rgba(255,255,255,.8),
+        0 8px 22px rgba(60,110,140,.12);
+
+    font-size: 15px !important;
+}
+
+@keyframes perfilContactoEntrada {
+
+    0% {
+        opacity: 0;
+        scale: .94;
+        filter: blur(7px);
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+        filter: blur(0);
+    }
+}
+
+@keyframes perfilAvatarEntrada {
+
+    0% {
+        opacity: 0;
+        translate: 0 18px;
+        scale: .72;
+    }
+
+    60% {
+        opacity: 1;
+        translate: 0 -3px;
+        scale: 1.06;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
+/* FIX BOTON VER PERFIL */
+
+#juantssapp #pantallaChat > button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+}
+
+/* JUANTSSAPP 2.1 - NOTIFICACIÓN */
+
+.notificacionJuantsapp {
+    position: fixed;
+    top: 18px;
+    left: 18px;
+    right: 18px;
+    z-index: 20000;
+
+    padding: 15px 18px;
+
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.92);
+    color: #172033;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+
+    animation: notificacionEntrada 0.35s ease both;
+}
+
+@keyframes notificacionEntrada {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.notificacionJuantsapp strong {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.notificacionJuantsapp small {
+    opacity: 0.7;
+}
+
+
+/* ================================================= */
+/* JUANTOOLS VISUAL EVOLUTION                        */
+/* ================================================= */
+
+#juantssapp {
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(28px) saturate(135%);
+    -webkit-backdrop-filter: blur(28px) saturate(135%);
+    box-shadow:
+        0 24px 70px rgba(0, 0, 0, 0.16),
+        inset 0 1px 0 rgba(255, 255, 255, 0.30);
+}
+
+#juantssapp .amigo {
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease,
+        background 0.22s ease;
+}
+
+#juantssapp .amigo:active {
+    transform: scale(0.97);
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+#juantssapp .entradaMensaje button {
+    transition:
+        transform 0.2s ease,
+        filter 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#juantssapp .entradaMensaje button:active {
+    transform: scale(0.88);
+    filter: brightness(1.08);
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.16);
+}
+
+#juantssapp .burbujaMensaje {
+    animation: juantsappMensajeEntrada 0.28s ease both;
+}
+
+@keyframes juantsappMensajeEntrada {
+
+    from {
+        opacity: 0;
+        translate: 0 10px;
+        scale: 0.96;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
+
+#juantssapp #pantallaChat {
+    animation: juantsappChatEntrada 0.3s ease both;
+}
+
+@keyframes juantsappChatEntrada {
+
+    from {
+        opacity: 0;
+        translate: 0 12px;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+/* Pequeño reflejo visual JUANTOOLS */
+#juantssapp .amigo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background:
+        linear-gradient(
+            120deg,
+            rgba(255,255,255,0.18),
+            transparent 38%
+        );
+    opacity: 0.55;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    #juantssapp .burbujaMensaje,
+    #juantssapp #pantallaChat {
+        animation: none;
+    }
+
+    #juantssapp .amigo,
+    #juantssapp .entradaMensaje button {
+        transition: none;
+    }
+}
+
+
+/* ================================================= */
+/* JUANTOOLS 2.3 - FINAL VISUAL POLISH              */
+/* ================================================= */
+
+#juantssapp {
+    isolation: isolate;
+}
+
+#juantssapp .amigo {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+#juantssapp .amigo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 70%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(
+        100deg,
+        transparent,
+        rgba(255, 255, 255, 0.14),
+        transparent
+    );
+    transform: skewX(-18deg);
+    transition: left 0.55s ease;
+}
+
+#juantssapp .amigo:active::before {
+    left: 140%;
+}
+
+#juantssapp .avatar-amigo {
+    transition:
+        transform 0.25s ease,
+        filter 0.25s ease;
+}
+
+#juantssapp .amigo:active .avatar-amigo {
+    transform: scale(1.08);
+    filter: brightness(1.08);
+}
+
+#juantssapp .estadoAmigo {
+    display: inline-block;
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+
+#juantssapp .burbujaMensaje {
+    will-change: transform, opacity;
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+#juantssapp .mensajePropio {
+    box-shadow:
+        0 7px 22px rgba(0, 0, 0, 0.11),
+        inset 0 1px 0 rgba(255, 255, 255, 0.20);
+}
+
+#juantssapp .mensajeOtro {
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.07),
+        inset 0 1px 0 rgba(255, 255, 255, 0.14);
+}
+
+#juantssapp #mensajes {
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+}
+
+#juantssapp #mensajeInput {
+    transition:
+        box-shadow 0.25s ease,
+        border-color 0.25s ease,
+        background 0.25s ease;
+}
+
+#juantssapp #mensajeInput:focus {
+    outline: none;
+    box-shadow:
+        0 0 0 3px rgba(255, 255, 255, 0.12),
+        0 8px 26px rgba(0, 0, 0, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    #juantssapp .amigo::before,
+    #juantssapp .avatar-amigo,
+    #juantssapp .estadoAmigo,
+    #juantssapp #mensajeInput {
+        transition: none;
+    }
+
+    #juantssapp #mensajes {
+        scroll-behavior: auto;
+    }
+}
+
+
+/* ================================================= */
+/* JUANTOOLS 2.4 - FINAL SIGNATURE                  */
+/* ================================================= */
+
+#juantssapp {
+    position: relative;
+    overflow: hidden;
+}
+
+#juantssapp::before {
+    content: "";
+    position: absolute;
+    top: -140px;
+    right: -120px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.07);
+    filter: blur(55px);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#juantssapp::after {
+    content: "";
+    position: absolute;
+    bottom: -160px;
+    left: -120px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.05);
+    filter: blur(65px);
+    opacity: 0.65;
+    z-index: -1;
+}
+
+#juantssapp .amigo {
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+#juantssapp .amigo:active {
+    background: rgba(255, 255, 255, 0.16);
+    transform: scale(0.975);
+}
+
+#juantssapp .burbujaMensaje {
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease;
+}
+
+#juantssapp .burbujaMensaje:active {
+    transform: scale(0.985);
+}
+
+#juantssapp .mensajePropio {
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+#juantssapp .mensajeOtro {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#juantssapp .entradaMensaje {
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+}
+
+#juantssapp .entradaMensaje button {
+    position: relative;
+    overflow: hidden;
+}
+
+#juantssapp .entradaMensaje button::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    transform: scale(0);
+    opacity: 0;
+    transition:
+        transform 0.35s ease,
+        opacity 0.35s ease;
+}
+
+#juantssapp .entradaMensaje button:active::after {
+    transform: scale(1.8);
+    opacity: 1;
+}
+
+#juantssapp #mensajes {
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0,
+        black 18px,
+        black calc(100% - 18px),
+        transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0,
+        black 18px,
+        black calc(100% - 18px),
+        transparent 100%
+    );
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    #juantssapp .burbujaMensaje,
+    #juantssapp .entradaMensaje button,
+    #juantssapp .amigo {
+        transition: none;
+    }
+}
+
